@@ -17,14 +17,3 @@
             <input type="text" id="nama" name="nama" placeholder="Masukkan nama disini..." autocomplete="off" required>
             <button type="submit">Kirim</button>
         </form>
-
-        {% if nama %}
-        <div class="hasil">
-            <span class="badge">Hasil</span>
-            <p>Halo, <strong>{{ nama }}</strong>! 🎉</p>
-            <small>Data berhasil diterima lewat method POST.</small>
-        </div>
-        {% endif %}
-    </main>
-</body>
-</html>
